@@ -149,7 +149,7 @@ public final class LogVisualizer {
         this.gui.setVisible(true);
         if (Settings.getSettingBoolean("Check Updates")) {
             // Initialize Strings
-            String UPDATE_SITE = "https://github.com/wrldwzrd89/ascension-log-visualizer-new/raw/master/ALV/updater/";
+            String UPDATE_SITE = "https://github.com/wrldwzrd89/ascension-log-visualizer-new/raw/master/ascension-log-visualizer/updater/";
             String PRODUCT_NAME = "ascension-log-visualizer";
             String COMPANY_NAME = "Putty Software";
             String RDNS_COMPANY_NAME = "com.puttysoftware.alv";
