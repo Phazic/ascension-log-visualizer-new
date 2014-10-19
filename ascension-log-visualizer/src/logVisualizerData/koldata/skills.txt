@@ -1,0 +1,214 @@
+// This file is a skill MP cost table.
+// You can make manual changes/additions to this file if you want to.
+// Changes to this file will be loaded the next time the Log Visualizer is started.
+
+// Empty lines are ignored
+// This is a comment :)
+// Format for this file -> Skill name | MP cost
+// Nothing more :D
+
+//*********************************************************************************
+
+// Class independent
+
+Chronic Indigestion | 5
+CLEESH | 10
+Transcendent Olfaction | 40
+
+
+// Available from skill books
+
+Awesome Balls of Fire | 120
+Conjure Relaxing Campfire | 30
+Snowclone | 120
+Maximum Chill | 30
+Eggsplosion | 120
+Mudbath | 30
+Grease Lightning | 120
+Inappropriate Backrub | 30
+Raise Backup Dancer | 120
+Creepy Lullaby | 30
+Rainbow Gravitation | 30
+Vent Rage Gland | 15
+
+
+// Skills available to SCs
+
+Seal Clubbing Frenzy | 1
+Thrust-Smack | 3
+Lunge-Smack | 5
+Lunging Thrust-Smack | 8
+Tongue of the Otter | 7
+Tongue of the Walrus | 10
+Rage of the Reindeer | 10
+Musk of the Moose | 10
+Snarl of the Timberwolf | 10
+Clobber | 1
+Harpoon! | 30
+Holiday Weight Gain | 10
+
+
+// Skills available to TTs
+
+Patience of the Tortoise | 1
+Headbutt | 3
+Shieldbutt | 5
+Ghostly Shell | 6
+Reptilian Fortitude | 10
+Empathy of the Newt | 15
+Tenacity of the Snapper | 8
+Astral Shell | 10
+Kneebutt | 4
+Spectral Snapper | 20
+Toss | 1
+Summon Leviatuga | 40
+Jingle Bells | 5
+Head + Knee Combo | 8
+Head + Shield Combo | 9
+Knee + Shield Combo | 10
+Head + Knee + Shield Combo | 13
+
+
+// Skills available to PAs
+
+Manicotti Meditation | 1
+Ravioli Shurikens | 4
+Entangling Noodles | 3
+Cannelloni Cannon | 7
+Pastamastery | 10
+Stuffed Mortar Shell | 19
+Weapon of the Pastalord | 35
+Lasagna Bandages | 6
+Leash of Linguini | 12
+Cannelloni Cocoon | 20
+Springy Fusilli | 10
+Fearful Fettucini | 35
+Spaghetti Spear | 1
+Candyblast | 6
+Spirit of Cayenne | 10
+Spirit of Peppermint | 10
+Spirit of Garlic | 10
+Spirit of Wormwood | 10
+Spirit of Bacon Grease | 10
+
+
+// Skills available to SAs
+
+Sauce Contemplation | 1
+Stream of Sauce | 3
+Saucestorm | 12
+Advanced Saucecrafting | 10
+Elemental Saucesphere | 10
+Jalapeno Saucesphere | 5
+Jalape&ntilde;o Saucesphere | 5
+Wave of Sauce | 23
+Jabanero Saucesphere | 10
+Jaba&ntilde;ero Saucesphere | 10
+Saucegeyser | 40
+Saucy Salve | 4
+Scarysauce | 10
+Salsaball | 1
+Surge of Icing | 10
+K‰sesoﬂesturm | 10
+K&auml;seso&szlig;esturm | 10
+
+
+// Skills available to DBs
+
+Disco Aerobics | 1
+Disco Eye-Poke | 3
+Disco Dance of Doom | 5
+Disco Nap | 8
+Disco Dance II: Electric Boogaloo | 7
+Disco Power Nap | 12
+Disco Face Stab | 10
+Advanced Cocktailcrafting | 10
+Smooth Movement | 10
+Tango of Terror | 8
+Suckerpunch | 1
+Stealth Mistletoe | 5
+
+
+// Skills available to ATs
+
+Moxie of the Mariachi | 1
+Aloysius' Antiphon of Aptitude | 40
+The Moxious Madrigal | 2
+Cletus's Canticle of Celerity | 4
+The Polka of Plenty | 7
+The Magical Mojomuscular Melody | 3
+The Power Ballad of the Arrowsmith | 5
+Brawnee's Anthem of Absorption | 13
+Fat Leon's Phat Loot Lyric | 11
+The Psalm of Pointiness | 15
+Jackasses' Symphony of Destruction | 9
+Stevedave's Shanty of Superiority | 30
+The Ode to Booze | 50
+The Sonata of Sneakiness | 20
+Carlweather's Cantata of Confrontation | 20
+Ur-Kel's Aria of Annoyance | 30
+Dirge of Dreadfulness | 9
+The Ballad of Richie Thingfinder | 50
+Benetton's Medley of Diversity | 50
+Elron's Explosive Etude | 50
+Chorale of Companionship | 50
+Prelude of Precision | 50
+Sing | 1
+Donho's Bubbly Ballad | 75
+Cringle's Curative Carol | 5
+Inigo's Incantation of Inspiration | 100
+
+
+// Skills granted conditionally
+
+Hot Breath | 5
+Cold Breath | 5
+Spooky Breath | 5
+Stinky Breath | 5
+Sleazy Breath | 5
+Fire red bottle-rocket | 5
+Fire blue bottle-rocket | 5
+Fire orange bottle-rocket | 5
+Fire purple bottle-rocket | 5
+Fire black bottle-rocket | 5
+Creepy Grin | 30
+Start Trash Fire | 100
+Overload Discarded Refrigerator | 100
+Trashquake | 100
+Zombo's Visage | 100
+Hypnotize Hobo | 100
+Get a You-Eye View | 30
+Vicious Talon Slash | 5
+All-You-Can-Beat Wing Buffet | 10
+Rise From Your Ashes | 20
+Antarctic Flap | 20
+The Statue Treatment | 20
+Feast on Carrion | 20
+Give Your Opponent "The Bird" | 20
+Rouse Sapling | 15
+Spray Sap | 15
+Put Down Roots | 15
+Fire off a Roman Candle | 10
+Summer Siesta | 10
+Falling Leaf Whirlwind | 10
+Winter's Bite Technique | 10
+The 17 Cuts | 10
+Disarm | 15
+Entangle | 15
+Strangle | 15
+Furious Cleave | 5
+
+
+// Mr. Skills
+
+Summon Snowcone | 2
+Summon Stickers | 2
+Summon Sugar Sheets | 2
+Summon Hilarious Objects | 5
+Summon Tasteful Items | 5
+The Smile of Mr. A. | 5
+
+
+// Custom
+
+Arse Shoot | 5

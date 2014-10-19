@@ -1,0 +1,58 @@
+// This file lists all Bad Moon adventures.
+// You can make manual changes/additions to this file if you want to.
+// But keep in mind that encounter names have to use the same format as in mafia logs,
+// otherwise they will not be recognised. However, this check is not case sensitive.
+// Changes to this file will be loaded the next time the Log Visualizer is started.
+
+// Empty lines are ignored
+// This is a comment :)
+// Format for this file -> Encounter name of the Bad Adventure
+// Nothing more :D
+
+A Potentially Offensive Reference Has Been Carefully Avoided Here
+A White Lie
+Back Off, Man. I'm a Scientist.
+Because Stereotypes Are Awesome
+Better Dread Than Dead
+Do You Think You're Better Off Alone
+Double-Secret Initiation
+Drumroll, Please
+Elementally, My Deal Watson
+Flowers For
+Frost Bitten, Twice Shy
+Getting Hammered
+Hair of the Hellhound
+How Far Down Do You Want To Go?
+If You Smell Something Burning, It's My Heart
+It's All The Rage
+It's So Heavy
+KELF! I Need Somebody!
+Mind the Fine Print
+Mistaken Identity, LOL
+Mr. Sun Is Not Your Friend
+O Goblin, Where Art Thou?
+Obligatory Mascot Cameo
+Oh Guanoes!
+Oil Be Seeing You
+On The Whole, the Bark is Better
+Onna Stick
+Pantry Raid!
+Party Crasher
+Pot Jacked
+Pot-Unlucky
+Sandwiched in the Club
+Say Cheese!
+Shall We Dance
+Strategy: Get Arts
+Surprising!
+Sweatin' Like a Vet'ran
+That's My Favorite Kind of Contraption
+The Beaten-Senseless Man's Hand
+The Big Chill
+The Placebo Defect
+This Doesn't Look Like Candy Mountain
+Vole Call!
+What Do We Want?
+When Do We Want It?
+Why Did It Have To Be Snake Eyes?
+You Look Flushed

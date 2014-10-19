@@ -1,0 +1,126 @@
+// This file lists all important onetime items (items which later aren't omitted in
+// parsed logs on their first drop).
+// You can make manual changes/additions to this file if you want to.
+// But keep in mind that item names have to use the same format as in mafia logs,
+// otherwise they will not be recognised. However, this check is not case sensitive.
+// Changes to this file will be loaded the next time the Log Visualizer is started.
+
+// Empty lines are ignored
+// This is a comment :)
+// Format for this file -> Item name
+// Nothing more :D
+
+7-Foot Dwarven mattock
+acoustic guitarrr
+adder bladder
+annoying pitchfork
+Anticheese
+awful poetry journal
+bad-ass club
+barbed-wire fence
+barrrnacle
+bartender-in-the-box
+baseball
+beer helmet
+bejeweled pledge pin
+bird rib
+Black No. 2
+black pepper
+blood-faced volleyball
+broken skull
+broken sword
+bronzed locust
+bullet-proof corduroys
+chef-in-the-box
+crumbling rat skull
+disease
+distressed denim pants
+drum machine
+dueling banjo
+empty meat tank
+enchanted bean
+eyepatch
+fancy bath salts
+filthy corduroys
+filthy knitted dread sack
+frigid ninja stars
+frozen seal spine
+furry fur
+giant needle
+grass whistle
+grave robbing shovel
+gremlin juice
+handsomeness potion
+harem girl t-shirt
+heavy D
+inkwell
+jaba�ero-flavored chewing gum
+jabañero-flavored chewing gum
+jaba&ntilde;ero-flavored chewing gum
+jabanero-flavored chewing gum
+ketchup hound
+Knob Goblin harem pants
+Knob Goblin harem veil
+Knob Goblin perfume
+leftovers of indeterminate origin
+leprechaun hatchling
+lime-and-chile-flavored chewing gum
+lion oil
+loaded dice
+Lord Spookyraven's spectacles
+magic whistle
+mariachi G-string
+marzipan skull
+Meleegra™ pills
+Meleegra&trade; pills
+Meleegra? pills
+Meleegra pills
+metallic A
+miner's helmet
+miner's pants
+ocarina of space
+original G
+pack of chewing gum
+padded tortoise
+paranormal ricotta
+photoprotoneutron torpedo
+pickle-flavored chewing gum
+Pine-Fresh air freshener
+pitchfork
+plot hole
+powdered organs
+potato sprout
+Pregnant mushroom
+pygmy blowgun
+quasi-ethereal macaroni fragments
+rave whistle
+razor-sharp can lid
+reinforced beaded headband
+ring of aggravate monster
+ring of conflict
+round purple sunglasses
+ruby W
+rusty grave robbing shovel
+scintillating powder
+serpentine sword
+shadowy seal eye
+shimmering tendrils
+smoking talon
+snake shield
+spider web
+stick of dynamite
+stolen accordion
+stuffed shoulder parrot
+stunt nuts
+swashbuckling pants
+tamarind-flavored chewing gum
+tires
+tropical orchid
+turtle totem
+turtle wax
+turtlemail hauberk
+twitching trigger finger
+vampire glitter
+wine-soaked bone chips
+world's smallest violin
+wussiness potion

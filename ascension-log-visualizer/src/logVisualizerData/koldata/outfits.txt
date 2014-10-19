@@ -1,0 +1,80 @@
+// This file lists all outfits and what equipment slots they occupy.
+// You can make manual changes/additions to this file if you want to.
+// But keep in mind that outfit names have to use the same format as in mafia logs,
+// otherwise they will not be recognised. However, this check is not case sensitive.
+// Changes to this file will be loaded the next time the Ascension Log Visualizer is
+// started.
+
+// Empty lines are ignored
+// This is a comment :)
+// Format for this file -> Outfit name | hat | weapon | offhand | shirt | pants | acc1 | acc2 | acc3uip
+// Nothing more :D
+
+// Outfits using 2-handed weapon should note the offhand slot as used.
+// Outfit equipping seems to use the lower accessory slots first, so the order
+// seems to be acc3, acc2, acc1.
+
+8-Bit Finery | true | true | false | false | true | false | false | false
+Antique Arms And Armor | true | true | true | false | true | false | false | false
+Arboreal Raiment | false | true | false | false | true | false | false | true
+Arrrbor Day Apparrrrrel | true | false | false | false | true | false | false | true
+Black Armaments | true | true | true | false | true | false | false | false
+Bounty-Hunting Rig | true | true | true | false | true | false | false | false
+Bow Tux | true | true | true | false | true | false | false | false
+BRICKOfig Outfit | true | true | true | false | true | false | false | false
+Bugbear Costume | true | false | false | false | true | false | false | false
+Cloaca-Cola Uniform | true | false | true | false | true | false | false | false
+Clockwork Apparatus | true | false | false | true | true | false | false | false
+Crimbo Duds | true | true | true | false | true | false | false | false
+Crimborg Assault Armor | true | true | true | false | true | false | false | false
+Cursed Zombie Pirate Costume | true | true | false | false | true | false | false | false
+Dire Drifter Duds | true | false | true | false | true | false | false | false
+Dwarvish War Uniform | true | true | false | false | true | false | false | false
+Dyspepsi-Cola Uniform | true | false | true | false | true | false | false | false
+El Vibrato Relics | true | true | true | false | true | false | false | false
+Encephalic Ensemble | true | true | false | false | true | false | false | false
+eXtreme Cold-Weather Gear | true | false | false | false | true | false | false | true
+Filthy Hippy Disguise | true | false | false | false | true | false | false | false
+Floaty Fatigues | true | false | false | false | true | false | false | true
+Frat Boy Ensemble | true | true | false | false | true | false | false | false
+Frat Warrior Fatigues | true | false | false | false | true | false | false | true
+Furry Suit | true | false | false | false | true | false | false | false
+Glad Bag Glad Rags | true | true | true | false | true | false | false | false
+Gnauga Hides | false | true | true | false | true | false | false | false
+Grass Guise | true | true | false | false | true | false | false | false
+Grimy Reaper's Vestments | true | true | true | false | true | false | false | false
+Hodgman's Regal Frippery | true | false | false | false | true | false | false | true
+Hot and Cold Running Ninja Suit | true | true | true | false | true | false | false | false
+Hyperborean Hobo Habiliments | true | true | true | false | false | false | false | true
+Knob Goblin Elite Guard Uniform | true | true | true | false | true | false | false | false
+Knob Goblin Harem Girl Disguise | true | false | false | false | true | false | false | false
+Legendary Regalia of the Chelonian Overlord | true | true | false | false | true | false | false | true
+Legendary Regalia of the Groovelord | true | true | true | false | true | false | false | true
+Legendary Regalia of the Master Squeezeboxer | true | true | true | false | true | false | false | true
+Legendary Regalia of the Pasta Master | true | true | false | false | true | false | false | true
+Legendary Regalia of the Saucemaestro | true | true | false | false | true | false | false | true
+Legendary Regalia of the Seal Crusher | true | true | false | false | true | false | false | true
+Mining Gear | true | true | true | false | true | false | false | false
+Mutant Couture | true | true | true | false | true | false | false | false
+OK Lumberjack Outfit | true | false | false | false | true | false | false | true
+Palmist Paraphernalia | true | true | false | false | true | false | false | false
+Pork Elf Prizes | true | false | false | false | true | false | false | true
+Primitive Radio Duds | true | false | false | false | true | false | false | true
+Pyretic Panhandler Paraphernalia | true | false | true | false | true | false | false | false
+Radio Free Regalia | true | true | true | false | true | false | false | false
+Roy Orbison Disguise | true | false | false | false | true | false | false | true
+Slimesuit | true | false | false | false | true | false | false | true
+Snowman Suit | true | false | false | false | true | false | false | true
+Star Garb | true | false | true | false | true | false | false | false
+Swashbuckling Getup | true | false | false | false | true | false | false | true
+Tapered Threads | true | true | false | false | true | false | false | false
+Tawdry Tramp Togs | false | true | true | false | true | false | false | true
+Terrifying Clown Suit | true | false | false | false | true | true | true | true
+Terrycloth Tackle | true | false | false | false | true | false | false | true
+Time Trappings | true | true | false | false | true | false | false | false
+Tropical Crimbo Duds | true | true | false | false | true | false | false | false
+Vestments of the Treeslayer | true | false | false | false | true | false | false | true
+Vile Vagrant Vestments | false | false | true | false | true | false | false | true
+War Hippy Fatigues | true | false | false | false | true | false | false | true
+Wumpus-Hair Wardrobe | true | true | false | false | true | false | false | false
+Yendorian Finery | true | true | false | false | false | false | false | true

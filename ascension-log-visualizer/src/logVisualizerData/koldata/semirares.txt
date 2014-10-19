@@ -1,0 +1,46 @@
+// This file lists all semi-rare adventures.
+// You can make manual changes/additions to this file if you want to.
+// But keep in mind that encounter names have to use the same format as in mafia logs,
+// otherwise they will not be recognised. However, this check is not case sensitive.
+// Changes to this file will be loaded the next time the Log Visualizer is started.
+
+// Empty lines are ignored
+// This is a comment :)
+// Format for this file -> Encounter name of the semi-rare
+// Nothing more :D
+
+A Menacing Phantom
+A Shark's Chum
+A Tight Squeeze
+All The Rave
+Bad ASCII Art
+Blaaargh! Blaaargh!
+Cold Comfort
+C. H. U. M. chieftain
+Filth, Filth, and More Filth
+Flowers for You
+Hands On
+How Does He Smell?
+In the Still of the Alley
+It's The Only Way To Be Sure
+Juicy!
+Knob Goblin Elite Guard Captain
+Knob Goblin Embezzler
+Le Chauve-Souris du Parfum
+Like the Sunglasses, But Less Comfortable
+Lunchboxing
+Maybe It's a Sexy Snake!
+Monty of County Crisco
+Natural Selection
+Not Quite as Cold as Ice
+Play Misty For Me
+Prior to Always
+Rokay, Raggy!
+Sand in the Vaseline
+Some Bricks Do, In Fact, Hang in the Air
+The Bleary-Eyed Cyclops
+The Latest Sorcerous Developments
+The Pilsbury Doughjerk
+Two Sizes Too Small
+Yo Ho Ho and a Bottle of Whatever This Is
+You Can Top Our Desserts, But You Can't Beat Our Meats

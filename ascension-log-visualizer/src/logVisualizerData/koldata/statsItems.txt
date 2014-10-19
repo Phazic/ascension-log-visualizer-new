@@ -1,0 +1,51 @@
+// This file is a main substats per turn from items table.
+// You can make manual changes/additions to this file if you want to.
+// Changes to this file will be loaded the next time the Log Visualizer is started.
+
+// Empty lines are ignored
+// This is a comment :)
+// Format for this file -> Item name | XP per turn
+// Nothing more :D
+
+Annoying pitchfork | 0.625
+bat whip | 0.625
+beer bong | 0.625
+buoybottoms | 0.875
+can cannon | 0.375
+C.A.R.N.I.V.O.R.E. Button | 1.875
+curmudgel | 1
+dreadlock whip | 1.25
+extra-large palm-frond toupee | 1
+flaming familiar doppelgänger | 0.625
+flaming juggler's balls | 1
+ga-ga radio | 0.5
+giant needle | 0.625
+goth kid t-shirt | 0.625
+Grimacite gown | 3.75
+grumpy old man charrrm bracelet | 0.875
+Hockey Stick of Furious Angry Rage | 3.75
+hippo whip | 1.25
+Hipposkin poncho | 1.25
+ice baby | 1.5
+Ice Sickle | 1.875
+Little Box of Fireworks | 0.75
+magic whistle | 0.5
+Mayflower bouquet | 0.3125
+ocarina of space | 1
+Pilgrim Shield | 1.5
+rattail whip | 0.625
+rave whistle | 1.25
+ring of aggravate monster | 0.625
+spiky turtle helmet | 1
+Spooky Putty mitre | 1.5
+squeaky staff | 0.375
+Stainless Steel Scarf | 2.5
+styrofoam crossbow | 0.375
+styrofoam staff | 0.375
+styrofoam sword | 0.375
+Sugar shirt | 1.5
+tail o' nine cats | 0.625
+vinyl shield | 3.125
+Wax Lips | 1.5
+white whip | 0.5
+world's smallest violin | 0.625

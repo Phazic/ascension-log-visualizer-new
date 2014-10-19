@@ -1,0 +1,110 @@
+/* Copyright (c) 2008-2010, developers of the Ascension Log Visualizer
+ *
+ * Permission is hereby granted, free of charge, to any person
+ * obtaining a copy of this software and associated documentation
+ * files (the "Software"), to deal in the Software without
+ * restriction, including without limitation the rights to use,
+ * copy, modify, merge, publish, distribute, sublicense, and/or
+ * sell copies of the Software, and to permit persons to whom
+ * the Software is furnished to do so, subject to the following
+ * conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ * OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ * HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ * OTHER DEALINGS IN THE SOFTWARE.
+ */
+package com.googlecode.logVisualizer.util;
+
+/**
+ * An immutable container class to pair an object and a number. This class is
+ * useful if for example you want to save some data and associate a certain turn
+ * number or simply the amount of that data with it.
+ * <p>
+ * Note: This class has a natural ordering that is inconsistent with equals.
+ */
+public final class DataNumberPair<T> implements Comparable<DataNumberPair<?>> {
+    private final Pair<T, Integer> dataNumberPair;
+
+    /**
+     * Creates a data number pairing of a generic object and a number.
+     *
+     * @param data
+     *            The data to set.
+     * @param number
+     *            The number to set.
+     * @throws NullPointerException
+     *             if data is {@code null}; if number is {@code null}
+     */
+    public static <T> DataNumberPair<T> of(final T data, final Integer number) {
+        return new DataNumberPair<>(data, number);
+    }
+
+    /**
+     * @param data
+     *            The data to set.
+     * @param number
+     *            The number to set.
+     * @throws NullPointerException
+     *             if data is {@code null}; if number is {@code null}
+     */
+    private DataNumberPair(final T data, final Integer number) {
+        this.dataNumberPair = Pair.of(data, number);
+    }
+
+    /**
+     * @return The data.
+     */
+    public T getData() {
+        return this.dataNumberPair.getVar1();
+    }
+
+    /**
+     * @return The number.
+     */
+    public Integer getNumber() {
+        return this.dataNumberPair.getVar2();
+    }
+
+    /**
+     * @return The difference between the number of this DataNumber instance and
+     *         the number of the given DataNumber object.
+     * @see Comparable
+     */
+    @Override
+    public int compareTo(final DataNumberPair<?> dataNumber) {
+        return this.dataNumberPair.getVar2().compareTo(dataNumber.getNumber());
+    }
+
+    @Override
+    public String toString() {
+        return this.dataNumberPair.getVar1().toString() + ": "
+                + this.dataNumberPair.getVar2();
+    }
+
+    @Override
+    public boolean equals(final Object o) {
+        if (o != null) {
+            if (o instanceof DataNumberPair<?>) {
+                return this.getData().equals(((DataNumberPair<?>) o).getData())
+                        && this.getNumber().equals(
+                                ((DataNumberPair<?>) o).getNumber());
+            }
+        }
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = 1147;
+        result = (31 * result) + this.dataNumberPair.hashCode();
+        return result;
+    }
+}

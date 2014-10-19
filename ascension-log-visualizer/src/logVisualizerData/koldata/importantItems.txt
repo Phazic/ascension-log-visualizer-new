@@ -1,0 +1,169 @@
+// This file lists all important items (items which later aren't omitted in parsed logs).
+// You can make manual changes/additions to this file if you want to.
+// But keep in mind that item names have to use the same format as in mafia logs,
+// otherwise they will not be recognised. However, this check is not case sensitive.
+// Changes to this file will be loaded the next time the Log Visualizer is started.
+
+// Empty lines are ignored
+// This is a comment :)
+// Format for this file -> Item name
+// Nothing more :D
+
+30669 scroll
+33398 scroll
+334 scroll
+31337 scroll
+64735 scroll
+agua de vida
+Azazel's lollipop
+Azazel's tutu
+Azazel's unicorn
+ball polish
+Baron von Ratsworth's money clip
+Baron von Ratsworth's monocle
+Baron von Ratsworth's tophat
+barrel of gunpowder
+beer lens
+Black picnic basket
+Boris's key
+Boris's ring
+Boss Bat bandana
+Boss Bat bling
+Boss Bat britches
+bottle of gin
+bottle of rum
+bottle of tequila
+bottle of vodka
+bottle of whiskey
+boxed wine
+box
+box of birthday candles
+broken wings
+Cape of the Goblin King
+carved wooden wheel
+chef's hat
+chest of the Bonerdagon
+Cobb's Knob lab key
+coconut shell
+Crown of the Goblin King
+dance card
+dead mimic
+disembodied brain
+dodecagram
+duct tape
+dusty bottle of Marsala
+dusty bottle of Merlot
+dusty bottle of Muscat
+dusty bottle of Pinot Noir
+dusty bottle of Port
+dusty bottle of Zinfandel
+eldritch butterknife
+figurine of a charred seal
+figurine of a cold seal
+figurine of a cute baby seal
+figurine of a shadowy seal
+figurine of a sleek seal
+figurine of a slippery seal
+figurine of a stinking seal
+figurine of a wretched-looking seal
+figurine of an ancient seal
+figurine of an armored seal
+filthy lucre
+Frat brats
+Gauze Immateria
+Glass Balls of the Goblin King
+glass of goat's milk
+Glimmering roc feather
+gnollish toolbox
+goat cheese
+gourd potion
+hard-boiled ostrich egg
+hard rock candy
+Harold's bell
+imbued seal-blubber candle
+Jarlsberg's earring
+Jarlsberg's key
+Knob Goblin encryption key
+Knob mushroom
+Knob sausage
+Knoll mushroom
+lime
+little paper umbrella
+llama lama gong
+loose teeth
+lowercase N
+magical ice cubes
+mega gem
+Mixed wildflower greens
+mizzenmast mop
+molybdenum crescent wrench
+molybdenum hammer
+molybdenum pliers
+molybdenum screwdriver
+mosquito larva
+not-a-pipe
+odor extractor
+photograph of God
+Plastic Wrap Immateria
+plus sign
+pool cue
+rigging shampoo
+skeleton bone
+skull of the Bonerdagon
+smart skull
+snakehead charrrm
+Sneaky Pete's breath spray
+Sneaky Pete's key
+s.o.c.k.
+sonar-in-a-biscuit
+spices
+Spooky-Gro fertilizer
+spooky sapling
+Spooky Temple map
+star chart
+steel lasagna
+steel margarita
+steel-scented air freshener
+stone rose
+sunken eyes
+ten-leaf clover
+thin black candle
+Tin Foil Immateria
+tiny bottle of absinthe
+Tissue Paper Immateria
+tomb ratchet
+Typical Tavern swill
+vertebra of the Bonerdagon
+worm-riding hooks
+worm-riding manual page 1
+worm-riding manual page 2
+worm-riding manual pages 3-15
+worthless gewgaw
+worthless knick-knack
+worthless trinket
+
+
+// Mr. Store summons
+
+black snowcone
+blue snowcone
+green snowcone
+orange snowcone
+purple snowcone
+red snowcone
+scratch 'n' sniff unicorn sticker
+scratch 'n' sniff apple sticker
+scratch 'n' sniff UPC sticker
+scratch 'n' sniff wrestler sticker
+scratch 'n' sniff dragon sticker
+scratch 'n' sniff rock band sticker
+sugar sheet
+green candy heart
+lavender candy heart
+orange candy heart
+pink candy heart
+white candy heart
+yellow candy heart
+divine champagne flute
+divine champagne popper
+divine cracker
