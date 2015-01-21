@@ -32,7 +32,16 @@ import com.googlecode.logVisualizer.parser.UsefulPatterns;
 public final class MafiaDisintegrateLineParser extends AbstractLineParser {
     private static final Pattern MAJOR_YELLOW_RAY = Pattern
             .compile("Round \\d+: .+? swings his eyestalk around and unleashes a massive"
-                    + " ray of yellow energy, completely disintegrating your opponent.");
+                    + " ray of yellow energy, completely disintegrating your opponent."
+                    + "|Nanobots stream out of your fingers and explode your foe with a flash of bright yellow light"
+                    + "|After it goes off in a flash of dazzling yellow and flying pumpkin guts"
+                    + "|You toss the ball of light at your opponent."
+                    + "|You toss the light at your opponent. "
+                    + "|You toss the taffy, and the salt water soaks into it. There is a burst of yellow "
+                    + "|You light the bomb and toss it in your opponent's direction. What ensues is like mutually assured destruction, except for the mutual part."
+                    + "|You flash your headlight. A sweet guitar riff plays as your opponent is vaporized."
+                    + "|A blinding ball of lightning bursts in front of her. When your vision returns"
+                    + "|Round \\d+: .+? casts OPEN A BIG YELLOW PRESENT!");
     private final Matcher majorYellowRayMatcher = MafiaDisintegrateLineParser.MAJOR_YELLOW_RAY
             .matcher(UsefulPatterns.EMPTY_STRING);
 
