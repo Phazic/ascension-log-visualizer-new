@@ -54,7 +54,7 @@ import com.googlecode.logVisualizer.parser.mafiaLogBlockParsers.PlayerSnapshotBl
 public final class MafiaLogParser implements LogParser {
     private static final Pattern THREE_FIGURE_STATGAIN = Pattern
             .compile("You gain \\d{3} [\\w\\s]+");
-    private static final String NAUGHTY_SORCERESS_FIGHT_STRING = "Sorceress Tower: Naughty Sorceress";
+    private static final String NAUGHTY_SORCERESS_FIGHT_STRING = " The Naughty Sorceress' Chamber";
     private final LogDataHolder logData = new LogDataHolder();
     private final File log;
     private final EncounterBlockParser encounterParser = new EncounterBlockParser();

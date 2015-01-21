@@ -35,6 +35,8 @@ bottle of rum
 bottle of tequila
 bottle of vodka
 bottle of whiskey
+Bowl of Scorpions
+bowling ball
 boxed wine
 box
 box of birthday candles
@@ -45,6 +47,7 @@ chef's hat
 chest of the Bonerdagon
 Cobb's Knob lab key
 coconut shell
+crappy waiter disguise
 Crown of the Goblin King
 dance card
 dead mimic
@@ -69,6 +72,7 @@ figurine of a wretched-looking seal
 figurine of an ancient seal
 figurine of an armored seal
 filthy lucre
+Flamin' Whatshisname
 Frat brats
 Gauze Immateria
 Glass Balls of the Goblin King
@@ -135,9 +139,6 @@ tomb ratchet
 Typical Tavern swill
 vertebra of the Bonerdagon
 worm-riding hooks
-worm-riding manual page 1
-worm-riding manual page 2
-worm-riding manual pages 3-15
 worthless gewgaw
 worthless knick-knack
 worthless trinket

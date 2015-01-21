@@ -58,7 +58,7 @@ final class MiscPanel extends JTabbedPane {
                 .getLogSummary().getBadmoonAdventures()));
         this.addTab("Hunted Combats", MiscPanel.createSummaryPanel(logData
                 .getLogSummary().getHuntedCombats()));
-        this.addTab("He-Boulder Yellow Rays", MiscPanel
+        this.addTab("Yellow Rays", MiscPanel
                 .createSummaryPanel(logData.getLogSummary()
                         .getDisintegratedCombats()));
         this.addTab("Spooky Putty Usage",

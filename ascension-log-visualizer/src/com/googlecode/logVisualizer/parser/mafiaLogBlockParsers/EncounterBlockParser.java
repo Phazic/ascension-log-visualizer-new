@@ -116,6 +116,7 @@ public final class EncounterBlockParser implements LogBlockParser {
 
     public EncounterBlockParser() {
         this.lineParsers.add(new ItemAcquisitionLineParser());
+        this.lineParsers.add(new MafiaDisintegrateLineParser());
         this.lineParsers.add(new SkillCastLineParser());
         this.lineParsers.add(new MeatLineParser(MeatGainType.ENCOUNTER));
         this.lineParsers.add(new MeatSpentLineParser());
@@ -124,7 +125,6 @@ public final class EncounterBlockParser implements LogBlockParser {
         this.lineParsers.add(new CombatRecognizerLineParser());
         this.lineParsers.add(new EquipmentLineParser());
         this.lineParsers.add(new MafiaFreeRunawaysLineParser());
-        this.lineParsers.add(new MafiaDisintegrateLineParser());
         this.lineParsers.add(new OdorExtractorUsageLineParser());
         this.lineParsers.add(new StarfishMPGainLineParser());
     }
