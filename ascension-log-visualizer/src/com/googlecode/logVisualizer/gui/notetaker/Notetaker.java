@@ -216,7 +216,7 @@ public final class Notetaker extends JFrame {
      * multi-line strings as texts with multiple lines.
      */
     private static final class TurnIntervalCellRenderer extends JTextArea
-            implements ListCellRenderer<TurnInterval> {
+            implements ListCellRenderer<TurnIntervalContainer> {
         /**
          * 
          */
@@ -231,10 +231,10 @@ public final class Notetaker extends JFrame {
 
         @Override
         public Component getListCellRendererComponent(
-                final JList<? extends TurnInterval> list,
-                final TurnInterval value, final int index,
+                final JList<? extends TurnIntervalContainer> list,
+                final TurnIntervalContainer value, final int index,
                 final boolean isSelected, final boolean cellHasFocus) {
-            this.setText(value.toString());
+            this.setText(value.getTurnInterval().toString());
             if (isSelected) {
                 this.setBackground(list.getSelectionBackground());
                 this.setForeground(list.getSelectionForeground());
@@ -250,7 +250,7 @@ public final class Notetaker extends JFrame {
      * Just a little helper class make instantiation of the turn interval menu a
      * little nicer.
      */
-    private static final class TurnIntervalMenuList extends JList<TurnInterval> {
+    private static final class TurnIntervalMenuList extends JList<TurnIntervalContainer> {
         /**
          * 
          */
@@ -264,7 +264,7 @@ public final class Notetaker extends JFrame {
          */
         @SuppressWarnings({ "unchecked", "rawtypes" })
         TurnIntervalMenuList(final LogDataHolder log) {
-            super(new DefaultListModel<TurnInterval>());
+            super(new DefaultListModel<TurnIntervalContainer>());
             this.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
             this.setCellRenderer(new TurnIntervalCellRenderer());
             final Iterator<String> turnRundownListIndex = TextLogCreator
