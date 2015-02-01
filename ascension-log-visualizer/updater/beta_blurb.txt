@@ -1,1 +1,1 @@
-3.0.0-beta1: Rewrite in Java SE 8. Update data files.
+3.0.0-beta2: Various bug fixes.

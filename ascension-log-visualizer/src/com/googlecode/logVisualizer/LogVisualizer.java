@@ -157,7 +157,7 @@ public final class LogVisualizer {
             final int VERSION_MINOR = 0;
             final int VERSION_BUGFIX = 0;
             final int VERSION_CODE = ProductData.CODE_BETA;
-            final int VERSION_BETA = 1;
+            final int VERSION_BETA = 2;
             // Initialize update checkers
             final ProductData rpd = new ProductData(UPDATE_SITE, UPDATE_SITE,
                     RDNS_COMPANY_NAME, COMPANY_NAME, PRODUCT_NAME,
