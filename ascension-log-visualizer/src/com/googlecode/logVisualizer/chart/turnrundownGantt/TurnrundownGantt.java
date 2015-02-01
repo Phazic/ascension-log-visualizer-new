@@ -30,7 +30,7 @@ import com.googlecode.logVisualizer.logData.turn.TurnInterval;
 
 public final class TurnrundownGantt extends GanttChartBuilder {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 2028122645909913996L;
 

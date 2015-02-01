@@ -68,7 +68,7 @@ import com.googlecode.logVisualizer.util.textualLogs.TextLogCreator.TextualLogVe
  */
 public final class InternalMafiaLogParserDialog extends JDialog {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 8624191051351970813L;
     public static final FilenameFilter MAFIA_LOG_FILTER = new FilenameFilter() {

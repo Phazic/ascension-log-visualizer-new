@@ -39,7 +39,7 @@ import com.googlecode.logVisualizer.util.DataNumberPair;
 
 final class MiscPanel extends JTabbedPane {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -3618978649327096924L;
     private static final String NEW_LINE = "\n";
@@ -58,9 +58,8 @@ final class MiscPanel extends JTabbedPane {
                 .getLogSummary().getBadmoonAdventures()));
         this.addTab("Hunted Combats", MiscPanel.createSummaryPanel(logData
                 .getLogSummary().getHuntedCombats()));
-        this.addTab("Yellow Rays", MiscPanel
-                .createSummaryPanel(logData.getLogSummary()
-                        .getDisintegratedCombats()));
+        this.addTab("Yellow Rays", MiscPanel.createSummaryPanel(logData
+                .getLogSummary().getDisintegratedCombats()));
         this.addTab("Spooky Putty Usage",
                 MiscPanel.createSpookyPuttySummaryPanel(logData));
         this.addTab("Lost Combats",

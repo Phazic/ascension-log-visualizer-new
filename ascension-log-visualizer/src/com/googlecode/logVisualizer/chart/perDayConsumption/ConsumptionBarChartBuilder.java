@@ -42,7 +42,7 @@ import com.googlecode.logVisualizer.logData.consumables.Consumable;
 
 abstract class ConsumptionBarChartBuilder extends AbstractChart {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 6539025413319580647L;
     private final static Paint[] DEFAULT_COLORS = ChartColor

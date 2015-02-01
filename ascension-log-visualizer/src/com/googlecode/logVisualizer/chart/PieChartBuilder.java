@@ -33,7 +33,7 @@ import com.googlecode.logVisualizer.logData.LogDataHolder;
 
 public abstract class PieChartBuilder extends AbstractChart {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 623583732328863273L;
 

@@ -35,7 +35,7 @@ import com.googlecode.logVisualizer.logData.LogDataHolder;
 
 public final class TotalConsumptionPie extends PieChartBuilder {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -7017996531343725189L;
     private final static Paint[] DEFAULT_COLORS = ChartColor

@@ -73,126 +73,148 @@ public final class QuestTurncounts {
             throw new NullPointerException(
                     "Dropped items list must not be null.");
         }
-        this.mosquitoQuestTurns = QuestTurncounts.getTurnsUntilItemFound("Spooky Forest",
-                "mosquito larva", turns, droppedItems);
+        this.mosquitoQuestTurns = QuestTurncounts.getTurnsUntilItemFound(
+                "Spooky Forest", "mosquito larva", turns, droppedItems);
         this.templeOpeningTurns = QuestTurncounts.calculateTempleOpening(turns,
                 droppedItems);
-        this.tavernQuestTurns = QuestTurncounts.getTurnsInLocation("Typical Tavern Quest",
-                turns);
+        this.tavernQuestTurns = QuestTurncounts.getTurnsInLocation(
+                "Typical Tavern Quest", turns);
         this.batQuestTurns = QuestTurncounts.getTurnsUntilOtherLocationOpen(
                 "Guano Junction", "Boss Bat's Lair", turns)
                 + QuestTurncounts.getTurnsInLocation("Boss Bat's Lair", turns);
         this.knobQuestTurns = QuestTurncounts.getTurnsUntilItemFound(
                 "Outskirts of The Knob", "Knob Goblin encryption key", turns,
                 droppedItems)
-                + QuestTurncounts.getTurnsInLocation("Knob Goblin Harem", turns)
+                + QuestTurncounts
+                        .getTurnsInLocation("Knob Goblin Harem", turns)
                 + QuestTurncounts.getTurnsInLocation("King's Chamber", turns);
         this.friarsQuestTurns = QuestTurncounts.getTurnsUntilItemFound(
                 "Dark Neck of the Woods", "dodecagram", turns, droppedItems)
-                + QuestTurncounts.getTurnsUntilItemFound("Dark Heart of the Woods",
-                        "box of birthday candles", turns, droppedItems)
-                + QuestTurncounts.getTurnsUntilItemFound("Dark Elbow of the Woods",
-                        "eldritch butterknife", turns, droppedItems);
-        this.cyrptQuestTurns = QuestTurncounts.getTurnsInLocation("Defiled Cranny", turns)
+                + QuestTurncounts.getTurnsUntilItemFound(
+                        "Dark Heart of the Woods", "box of birthday candles",
+                        turns, droppedItems)
+                + QuestTurncounts.getTurnsUntilItemFound(
+                        "Dark Elbow of the Woods", "eldritch butterknife",
+                        turns, droppedItems);
+        this.cyrptQuestTurns = QuestTurncounts.getTurnsInLocation(
+                "Defiled Cranny", turns)
                 + QuestTurncounts.getTurnsInLocation("Defiled Nook", turns)
                 + QuestTurncounts.getTurnsInLocation("Defiled Alcove", turns)
                 + QuestTurncounts.getTurnsInLocation("Defiled Niche", turns)
-                + QuestTurncounts.getTurnsInLocation("Haert of the Cyrpt", turns);
-        this.trapzorQuestTurns = QuestTurncounts.getTurnsInLocation("Itznotyerzitz Mine",
-                turns)
-                + QuestTurncounts.getTurnsInLocation("Mining (In Disguise)", turns)
+                + QuestTurncounts.getTurnsInLocation("Haert of the Cyrpt",
+                        turns);
+        this.trapzorQuestTurns = QuestTurncounts.getTurnsInLocation(
+                "Itznotyerzitz Mine", turns)
+                + QuestTurncounts.getTurnsInLocation("Mining (In Disguise)",
+                        turns)
                 + QuestTurncounts.getTurnsInLocation("Goatlet", turns);
-        this.chasmQuestTurns = QuestTurncounts.getTurnsInLocation("Orc Chasm", turns);
-        this.airshipQuestTurns = QuestTurncounts.getTurnsUntilItemFound("Fantasy Airship",
-                "S.O.C.K.", turns, droppedItems);
+        this.chasmQuestTurns = QuestTurncounts.getTurnsInLocation("Orc Chasm",
+                turns);
+        this.airshipQuestTurns = QuestTurncounts.getTurnsUntilItemFound(
+                "Fantasy Airship", "S.O.C.K.", turns, droppedItems);
         this.castleQuestTurns = QuestTurncounts.getTurnsUntilOtherLocationOpen(
                 "Giant's Castle", "Hole in the Sky", turns);
-        this.ballroomOpeningTurns = QuestTurncounts.getTurnsUntilOtherLocationOpen(
-                "Haunted Pantry", "Haunted Billiards Room", turns)
-                + QuestTurncounts.getTurnsUntilOtherLocationOpen("Haunted Billiards Room",
-                        "Haunted Library", turns)
-                + QuestTurncounts.getTurnsUntilOtherLocationOpen("Haunted Library",
-                        "Haunted Bedroom", turns)
-                + QuestTurncounts.getTurnsUntilOtherLocationOpen("Haunted Bedroom",
-                        "Haunted Ballroom", turns);
+        this.ballroomOpeningTurns = QuestTurncounts
+                .getTurnsUntilOtherLocationOpen("Haunted Pantry",
+                        "Haunted Billiards Room", turns)
+                + QuestTurncounts.getTurnsUntilOtherLocationOpen(
+                        "Haunted Billiards Room", "Haunted Library", turns)
+                + QuestTurncounts.getTurnsUntilOtherLocationOpen(
+                        "Haunted Library", "Haunted Bedroom", turns)
+                + QuestTurncounts.getTurnsUntilOtherLocationOpen(
+                        "Haunted Bedroom", "Haunted Ballroom", turns);
         this.pirateQuestTurns = QuestTurncounts.getTurnsUntilOtherLocationOpen(
                 "Pirate Cove", "Barrrney's Barrr", turns)
-                + QuestTurncounts.getTurnsUntilOtherLocationOpen("Barrrney's Barrr",
-                        "F'c'le", turns)
-                + QuestTurncounts.getTurnsInLocation("Cap'm Caronch's Map", turns)
-                + QuestTurncounts.getTurnsInLocation("The Infiltrationist", turns)
-                + QuestTurncounts.getTurnsUntilOtherLocationOpen("F'c'le", "Poop Deck",
+                + QuestTurncounts.getTurnsUntilOtherLocationOpen(
+                        "Barrrney's Barrr", "F'c'le", turns)
+                + QuestTurncounts.getTurnsInLocation("Cap'm Caronch's Map",
                         turns)
+                + QuestTurncounts.getTurnsInLocation("The Infiltrationist",
+                        turns)
+                + QuestTurncounts.getTurnsUntilOtherLocationOpen("F'c'le",
+                        "Poop Deck", turns)
                 + QuestTurncounts.getTurnsUntilOtherLocationOpen("Poop Deck",
                         "Belowdecks", turns)
                 + QuestTurncounts.getTurnsUntilOtherLocationOpen("Belowdecks",
                         "Palindome", turns);
-        this.blackForrestQuestTurns = QuestTurncounts.getTurnsInLocation("Black Forest",
-                turns);
+        this.blackForrestQuestTurns = QuestTurncounts.getTurnsInLocation(
+                "Black Forest", turns);
         this.desertOasisQuestTurns = QuestTurncounts.getTurnsInLocation(
                 "Desert (Unhydrated)", turns)
-                + QuestTurncounts.getTurnsInLocation("Desert (Ultrahydrated)", turns)
-                + QuestTurncounts.getTurnsInLocation("Oasis in the Desert", turns);
+                + QuestTurncounts.getTurnsInLocation("Desert (Ultrahydrated)",
+                        turns)
+                + QuestTurncounts.getTurnsInLocation("Oasis in the Desert",
+                        turns);
         this.spookyravenQuestTurns = QuestTurncounts.getTurnsAfterLocationOpen(
                 "Haunted Ballroom", "Black Forest", turns)
-                + QuestTurncounts.getTurnsInLocation("Haunted Wine Cellar (Northwest)",
+                + QuestTurncounts.getTurnsInLocation(
+                        "Haunted Wine Cellar (Northwest)", turns)
+                + QuestTurncounts.getTurnsInLocation(
+                        "Haunted Wine Cellar (Northeast)", turns)
+                + QuestTurncounts.getTurnsInLocation(
+                        "Haunted Wine Cellar (Southwest)", turns)
+                + QuestTurncounts.getTurnsInLocation(
+                        "Haunted Wine Cellar (Southeast)", turns)
+                + QuestTurncounts.getTurnsInLocation("Haunted Wine Cellar",
                         turns)
-                + QuestTurncounts.getTurnsInLocation("Haunted Wine Cellar (Northeast)",
-                        turns)
-                + QuestTurncounts.getTurnsInLocation("Haunted Wine Cellar (Southwest)",
-                        turns)
-                + QuestTurncounts.getTurnsInLocation("Haunted Wine Cellar (Southeast)",
-                        turns)
-                + QuestTurncounts.getTurnsInLocation("Haunted Wine Cellar", turns)
                 + QuestTurncounts.getTurnsInLocation("Lord Spookyraven", turns)
-                + QuestTurncounts.getTurnsInLocation("Summoning Chamber", turns);
-        this.templeCityQuestTurns = QuestTurncounts.getTurnsInLocation("Hidden Temple",
-                turns)
+                + QuestTurncounts
+                        .getTurnsInLocation("Summoning Chamber", turns);
+        this.templeCityQuestTurns = QuestTurncounts.getTurnsInLocation(
+                "Hidden Temple", turns)
                 + QuestTurncounts.getTurnsInLocation("Hidden City", turns)
-                + QuestTurncounts.getTurnsInLocation("Hidden City (Altar)", turns)
-                + QuestTurncounts.getTurnsInLocation("Hidden City (Temple)", turns);
-        this.palindomeQuestTurns = QuestTurncounts.getTurnsInLocation("Palindome", turns)
-                + QuestTurncounts.getTurnsAfterLocationOpen("Knob Goblin Laboratory",
-                        "Palindome", turns)
-                + QuestTurncounts.getTurnsAfterLocationOpen("Whitey's Grove", "Palindome",
+                + QuestTurncounts.getTurnsInLocation("Hidden City (Altar)",
+                        turns)
+                + QuestTurncounts.getTurnsInLocation("Hidden City (Temple)",
                         turns);
-        this.pyramidQuestTurns = QuestTurncounts.getTurnsInLocation("The Upper Chamber",
-                turns)
-                + QuestTurncounts.getTurnsInLocation("The Middle Chamber", turns)
-                + QuestTurncounts.getTurnsInLocation("The Lower Chamber", turns)
-                + QuestTurncounts.getTurnsInLocation("The Lower Chambers (Token/Empty)",
+        this.palindomeQuestTurns = QuestTurncounts.getTurnsInLocation(
+                "Palindome", turns)
+                + QuestTurncounts.getTurnsAfterLocationOpen(
+                        "Knob Goblin Laboratory", "Palindome", turns)
+                + QuestTurncounts.getTurnsAfterLocationOpen("Whitey's Grove",
+                        "Palindome", turns);
+        this.pyramidQuestTurns = QuestTurncounts.getTurnsInLocation(
+                "The Upper Chamber", turns)
+                + QuestTurncounts.getTurnsInLocation("The Middle Chamber",
                         turns)
-                + QuestTurncounts.getTurnsInLocation("The Lower Chambers (Rubble/Bomb)",
-                        turns)
+                + QuestTurncounts
+                        .getTurnsInLocation("The Lower Chamber", turns)
+                + QuestTurncounts.getTurnsInLocation(
+                        "The Lower Chambers (Token/Empty)", turns)
+                + QuestTurncounts.getTurnsInLocation(
+                        "The Lower Chambers (Rubble/Bomb)", turns)
                 + QuestTurncounts.getTurnsInLocation(
                         "The Lower Chambers (Empty/Empty/Ed's Chamber)", turns)
-                + QuestTurncounts.getTurnsInLocation("The Lower Chambers (Empty/Rubble)",
-                        turns)
+                + QuestTurncounts.getTurnsInLocation(
+                        "The Lower Chambers (Empty/Rubble)", turns)
                 + QuestTurncounts.getTurnsInLocation("Ed the Undying", turns);
         this.warIslandOpeningTurns = QuestTurncounts.getTurnsAfterLocationOpen(
                 "Hippy Camp", "Palindome", turns)
                 + QuestTurncounts.getTurnsInLocation(
                         "Wartime Hippy Camp (Hippy Disguise)", turns)
-                + QuestTurncounts.getTurnsInLocation("Wartime Hippy Camp (Frat Disguise)",
-                        turns)
-                + QuestTurncounts.getTurnsAfterLocationOpen("Frat House", "Palindome",
-                        turns)
+                + QuestTurncounts.getTurnsInLocation(
+                        "Wartime Hippy Camp (Frat Disguise)", turns)
+                + QuestTurncounts.getTurnsAfterLocationOpen("Frat House",
+                        "Palindome", turns)
                 + QuestTurncounts.getTurnsInLocation(
                         "Wartime Frat House (Hippy Disguise)", turns)
-                + QuestTurncounts.getTurnsInLocation("Wartime Frat House (Frat Disguise)",
-                        turns);
-        this.warIslandQuestTurns = QuestTurncounts.getTurnsInLocation("Hatching Chamber",
-                turns)
+                + QuestTurncounts.getTurnsInLocation(
+                        "Wartime Frat House (Frat Disguise)", turns);
+        this.warIslandQuestTurns = QuestTurncounts.getTurnsInLocation(
+                "Hatching Chamber", turns)
                 + QuestTurncounts.getTurnsInLocation("Feeding Chamber", turns)
                 + QuestTurncounts.getTurnsInLocation("Guards' Chamber", turns)
                 + QuestTurncounts.getTurnsInLocation("Queen's Chamber", turns)
                 + QuestTurncounts.getTurnsInLocation(
                         "Barrel with Something Burning in it", turns)
-                + QuestTurncounts.getTurnsInLocation("Over Where the Old Tires Are", turns)
-                + QuestTurncounts.getTurnsInLocation("Near an Abandoned Refrigerator",
+                + QuestTurncounts.getTurnsInLocation(
+                        "Over Where the Old Tires Are", turns)
+                + QuestTurncounts.getTurnsInLocation(
+                        "Near an Abandoned Refrigerator", turns)
+                + QuestTurncounts.getTurnsInLocation(
+                        "Out by that Rusted-Out Car", turns)
+                + QuestTurncounts.getTurnsInLocation("Wartime Sonofa Beach",
                         turns)
-                + QuestTurncounts.getTurnsInLocation("Out by that Rusted-Out Car", turns)
-                + QuestTurncounts.getTurnsInLocation("Wartime Sonofa Beach", turns)
                 + QuestTurncounts.getTurnsInLocation("Themthar Hills", turns)
                 + QuestTurncounts.getTurnsInLocation("Barn", turns)
                 + QuestTurncounts.getTurnsInLocation("Family Plot", turns)
@@ -202,15 +224,18 @@ public final class QuestTurncounts {
                 + QuestTurncounts.getTurnsInLocation("Granary", turns)
                 + QuestTurncounts.getTurnsInLocation("Bog", turns)
                 + QuestTurncounts.getTurnsInLocation("Shady Thicket", turns)
-                + QuestTurncounts.getTurnsInLocation("Battlefield (Frat Uniform)", turns)
-                + QuestTurncounts.getTurnsInLocation("Battlefield (Hippy Uniform)", turns)
+                + QuestTurncounts.getTurnsInLocation(
+                        "Battlefield (Frat Uniform)", turns)
+                + QuestTurncounts.getTurnsInLocation(
+                        "Battlefield (Hippy Uniform)", turns)
                 + QuestTurncounts.getTurnsInLocation("Big Wisniewski", turns)
-                + QuestTurncounts.getTurnsInLocation("The Big Wisniewski", turns)
+                + QuestTurncounts.getTurnsInLocation("The Big Wisniewski",
+                        turns)
                 + QuestTurncounts.getTurnsInLocation("The Man", turns);
-        this.dodQuestTurns = QuestTurncounts
-                .getTurnsInLocation("Greater-Than Sign", turns)
-                + QuestTurncounts.getTurnsUntilItemFound("Dungeons of Doom", "dead mimic",
-                        turns, droppedItems);
+        this.dodQuestTurns = QuestTurncounts.getTurnsInLocation(
+                "Greater-Than Sign", turns)
+                + QuestTurncounts.getTurnsUntilItemFound("Dungeons of Doom",
+                        "dead mimic", turns, droppedItems);
     }
 
     /**
@@ -220,12 +245,13 @@ public final class QuestTurncounts {
      *            All dropped items during the ascension.
      * @return Turns spent.
      */
-    private static int calculateTempleOpening(final Collection<TurnInterval> turns,
+    private static int calculateTempleOpening(
+            final Collection<TurnInterval> turns,
             final Collection<Item> droppedItems) {
-        final int spookyGro = QuestTurncounts.getTurnsUntilItemFound("Spooky Forest",
-                "Spooky-Gro fertilizer", turns, droppedItems);
-        final int sapling = QuestTurncounts.getTurnsUntilItemFound("Spooky Forest",
-                "spooky sapling", turns, droppedItems);
+        final int spookyGro = QuestTurncounts.getTurnsUntilItemFound(
+                "Spooky Forest", "Spooky-Gro fertilizer", turns, droppedItems);
+        final int sapling = QuestTurncounts.getTurnsUntilItemFound(
+                "Spooky Forest", "spooky sapling", turns, droppedItems);
         return spookyGro > sapling ? spookyGro : sapling;
     }
 
@@ -289,8 +315,8 @@ public final class QuestTurncounts {
     private static int getTurnsAfterLocationOpen(final String areaName,
             final String alreadyOpenLocation,
             final Collection<TurnInterval> turns) {
-        return QuestTurncounts.getTurnsAfterLocationOpenUntilOtherLocationOpen(areaName,
-                alreadyOpenLocation, "", turns);
+        return QuestTurncounts.getTurnsAfterLocationOpenUntilOtherLocationOpen(
+                areaName, alreadyOpenLocation, "", turns);
     }
 
     /**

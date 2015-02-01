@@ -59,7 +59,7 @@ import com.googlecode.logVisualizer.util.textualLogs.TextLogCreator.TextualLogVe
  */
 final class DetailedLogViewer extends JFrame {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -1426856289964754334L;
     private final JEditorPane editorPane = new JEditorPane();

@@ -149,34 +149,34 @@ public class UpdateChecker {
                     blurb = this.readBlurb();
                     this.showUpdatesAvailableMessage(newVersionMajor,
                             newVersionMinor, newVersionBugfix, blurb);
-                } else if (newVersionMajor == this.prod.getMajorVersion()
-                        && newVersionMinor > this.prod.getMinorVersion()) {
+                } else if ((newVersionMajor == this.prod.getMajorVersion())
+                        && (newVersionMinor > this.prod.getMinorVersion())) {
                     // Minor update available
                     blurb = this.readBlurb();
                     this.showUpdatesAvailableMessage(newVersionMajor,
                             newVersionMinor, newVersionBugfix, blurb);
-                } else if (newVersionMajor == this.prod.getMajorVersion()
-                        && newVersionMinor == this.prod.getMinorVersion()
-                        && newVersionBugfix > this.prod.getBugfixVersion()) {
+                } else if ((newVersionMajor == this.prod.getMajorVersion())
+                        && (newVersionMinor == this.prod.getMinorVersion())
+                        && (newVersionBugfix > this.prod.getBugfixVersion())) {
                     // Bug fix update available
                     blurb = this.readBlurb();
                     this.showUpdatesAvailableMessage(newVersionMajor,
                             newVersionMinor, newVersionBugfix, blurb);
-                } else if (newVersionMajor == this.prod.getMajorVersion()
-                        && newVersionMinor == this.prod.getMinorVersion()
-                        && newVersionBugfix == this.prod.getBugfixVersion()
-                        && newVersionCode > this.prod.getCodeVersion()) {
+                } else if ((newVersionMajor == this.prod.getMajorVersion())
+                        && (newVersionMinor == this.prod.getMinorVersion())
+                        && (newVersionBugfix == this.prod.getBugfixVersion())
+                        && (newVersionCode > this.prod.getCodeVersion())) {
                     // Release type update available
                     blurb = this.readBlurb();
                     this.showUpdatesAvailableMessage(newVersionMajor,
                             newVersionMinor, newVersionBugfix, newVersionCode,
                             newVersionPrerelease, blurb);
-                } else if (newVersionMajor == this.prod.getMajorVersion()
-                        && newVersionMinor == this.prod.getMinorVersion()
-                        && newVersionBugfix == this.prod.getBugfixVersion()
-                        && newVersionCode == this.prod.getCodeVersion()
-                        && newVersionPrerelease > this.prod
-                                .getPrereleaseVersion()) {
+                } else if ((newVersionMajor == this.prod.getMajorVersion())
+                        && (newVersionMinor == this.prod.getMinorVersion())
+                        && (newVersionBugfix == this.prod.getBugfixVersion())
+                        && (newVersionCode == this.prod.getCodeVersion())
+                        && (newVersionPrerelease > this.prod
+                                .getPrereleaseVersion())) {
                     // Pre-release update available
                     blurb = this.readBlurb();
                     this.showUpdatesAvailableMessage(newVersionMajor,

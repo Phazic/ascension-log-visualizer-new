@@ -51,7 +51,7 @@ import com.sun.java.forums.CloseableTabbedPaneListener;
 
 public final class LogVisualizerGUI extends JFrame {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -418177126259480514L;
     private static final FileFilter ASCENSION_LOG_FILTER = new FileFilter() {
@@ -120,7 +120,7 @@ public final class LogVisualizerGUI extends JFrame {
         });
         fileMenu.add(new AbstractAction("Parse mafia logs") {
             /**
-             * 
+             *
              */
             private static final long serialVersionUID = -8099108496174386627L;
 
@@ -131,7 +131,7 @@ public final class LogVisualizerGUI extends JFrame {
         });
         fileMenu.add(new AbstractAction("Parse mafia logs with external parser") {
             /**
-             * 
+             *
              */
             private static final long serialVersionUID = -6161395126767129212L;
 
@@ -142,7 +142,7 @@ public final class LogVisualizerGUI extends JFrame {
         });
         fileMenu.add(new AbstractAction("Visualize mafia logs") {
             /**
-             * 
+             *
              */
             private static final long serialVersionUID = -8065069608212184976L;
 
@@ -159,7 +159,7 @@ public final class LogVisualizerGUI extends JFrame {
         });
         fileMenu.add(new AbstractAction("Visualize preparsed ascension log") {
             /**
-             * 
+             *
              */
             private static final long serialVersionUID = 2099269550515741590L;
 
@@ -179,7 +179,7 @@ public final class LogVisualizerGUI extends JFrame {
         fileMenu.add(this.removeMenu);
         fileMenu.add(new AbstractAction("Remove all tabs") {
             /**
-             * 
+             *
              */
             private static final long serialVersionUID = -400140760030793011L;
 
@@ -206,7 +206,7 @@ public final class LogVisualizerGUI extends JFrame {
         fileMenu.addSeparator();
         fileMenu.add(new AbstractAction("Exit") {
             /**
-             * 
+             *
              */
             private static final long serialVersionUID = 7683584500758006370L;
 
@@ -217,7 +217,7 @@ public final class LogVisualizerGUI extends JFrame {
         });
         extraMenu.add(new AbstractAction("Notetaker") {
             /**
-             * 
+             *
              */
             private static final long serialVersionUID = 2509280333171401161L;
 
@@ -239,7 +239,7 @@ public final class LogVisualizerGUI extends JFrame {
         });
         extraMenu.add(new AbstractAction("Detailed Log Viewer") {
             /**
-             * 
+             *
              */
             private static final long serialVersionUID = 6559022868043570062L;
 
@@ -262,7 +262,7 @@ public final class LogVisualizerGUI extends JFrame {
         extraMenu.addSeparator();
         extraMenu.add(new AbstractAction("Look&Feel changer") {
             /**
-             * 
+             *
              */
             private static final long serialVersionUID = 4898339895515379067L;
 
@@ -273,7 +273,7 @@ public final class LogVisualizerGUI extends JFrame {
         });
         extraMenu.add(new AbstractAction("Recreate data files") {
             /**
-             * 
+             *
              */
             private static final long serialVersionUID = 8579675109205513963L;
 
@@ -312,7 +312,7 @@ public final class LogVisualizerGUI extends JFrame {
         helpMenu.add(updatesCheckMenu);
         helpMenu.add(new AbstractAction("About Licenses") {
             /**
-             * 
+             *
              */
             private static final long serialVersionUID = -6947607989277824569L;
 
@@ -361,7 +361,7 @@ public final class LogVisualizerGUI extends JFrame {
      */
     private final class RemoveMenuItem extends JMenuItem {
         /**
-         * 
+         *
          */
         private static final long serialVersionUID = 8813862187228366655L;
 

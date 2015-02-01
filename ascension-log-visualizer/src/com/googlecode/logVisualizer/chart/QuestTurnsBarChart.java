@@ -57,7 +57,7 @@ import com.googlecode.logVisualizer.logData.LogDataHolder;
 
 public final class QuestTurnsBarChart extends HorizontalBarChartBuilder {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 8427013435620588366L;
     private static final String QUEST_TURNS_STRING = "Quest turns";

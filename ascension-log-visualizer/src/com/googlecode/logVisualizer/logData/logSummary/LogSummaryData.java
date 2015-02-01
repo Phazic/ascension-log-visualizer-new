@@ -122,8 +122,7 @@ public class LogSummaryData {
                         return diff;
                     }
                 });
-        this.consumablesUsed = new ArrayList<>(
-                data.getConsumablesUsed());
+        this.consumablesUsed = new ArrayList<>(data.getConsumablesUsed());
         Collections.sort(this.consumablesUsed, new Comparator<Consumable>() {
             @Override
             public int compare(final Consumable o1, final Consumable o2) {

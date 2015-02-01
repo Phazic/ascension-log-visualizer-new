@@ -77,7 +77,7 @@ import com.googlecode.logVisualizer.util.textualLogs.TextLogCreator.TextualLogVe
  */
 public final class Notetaker extends JFrame {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -8185868433565028732L;
     private final LogDataHolder log;
@@ -218,7 +218,7 @@ public final class Notetaker extends JFrame {
     private static final class TurnIntervalCellRenderer extends JTextArea
             implements ListCellRenderer<TurnIntervalContainer> {
         /**
-         * 
+         *
          */
         private static final long serialVersionUID = -5038545398904224614L;
 
@@ -250,9 +250,10 @@ public final class Notetaker extends JFrame {
      * Just a little helper class make instantiation of the turn interval menu a
      * little nicer.
      */
-    private static final class TurnIntervalMenuList extends JList<TurnIntervalContainer> {
+    private static final class TurnIntervalMenuList extends
+            JList<TurnIntervalContainer> {
         /**
-         * 
+         *
          */
         private static final long serialVersionUID = 2607220827265758012L;
 
@@ -292,7 +293,7 @@ public final class Notetaker extends JFrame {
      */
     private final class SaveDialog extends JDialog {
         /**
-         * 
+         *
          */
         private static final long serialVersionUID = -2257321026657963976L;
         private final JTextField directoryLocationField = new JTextField(

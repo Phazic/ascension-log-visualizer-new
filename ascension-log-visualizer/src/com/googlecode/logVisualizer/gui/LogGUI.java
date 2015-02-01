@@ -62,7 +62,7 @@ import com.googlecode.logVisualizer.util.textualLogs.TextLogCreator.TextualLogVe
 
 public final class LogGUI extends JSplitPane {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -7812320895914942781L;
     private static final String[] LIST_MENU_ITEM_NAMES = {
@@ -148,7 +148,7 @@ public final class LogGUI extends JSplitPane {
         }
         navigation.setModel(new AbstractListModel<String>() {
             /**
-             * 
+             *
              */
             private static final long serialVersionUID = -5733605020343410165L;
 
@@ -205,7 +205,7 @@ public final class LogGUI extends JSplitPane {
      */
     private final class LogViewer extends JTextArea {
         /**
-         * 
+         *
          */
         private static final long serialVersionUID = -2830191442670556878L;
         private static final String NEW_LINE = "\n";

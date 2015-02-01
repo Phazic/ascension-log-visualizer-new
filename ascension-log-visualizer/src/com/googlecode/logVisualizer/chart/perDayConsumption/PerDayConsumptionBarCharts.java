@@ -31,7 +31,7 @@ import com.googlecode.logVisualizer.logData.logSummary.ConsumptionSummary.Consum
 
 public final class PerDayConsumptionBarCharts extends JTabbedPane {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -3360187492483930819L;
 

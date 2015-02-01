@@ -29,7 +29,7 @@ import com.googlecode.logVisualizer.util.DataTablesHandler;
 
 final class PerDayConsumptionBarChart extends ConsumptionBarChartBuilder {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -3836830057108140815L;
     private final ConsumptionDayStats consumptionStats;

@@ -43,7 +43,7 @@ import com.googlecode.logVisualizer.logData.LogDataHolder;
 
 public abstract class HorizontalBarChartBuilder extends AbstractChart {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -2908920850129204194L;
     private final String xLable;

@@ -70,7 +70,7 @@ import com.googlecode.logVisualizer.util.LookAheadIterator;
 
 public abstract class GanttChartBuilder extends AbstractChart {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 1694279804243744892L;
     private List<TurnAreaCategory> categories = new ArrayList<>();
@@ -249,7 +249,7 @@ public abstract class GanttChartBuilder extends AbstractChart {
      */
     private final class FixedZoomNumberAxis extends NumberAxis {
         /**
-         * 
+         *
          */
         private static final long serialVersionUID = 4905313860425556133L;
 

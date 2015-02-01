@@ -31,7 +31,7 @@ import com.googlecode.logVisualizer.logData.Statgain;
 
 public final class StatGiverBarChart extends HorizontalStackedBarChartBuilder {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -4433265545909665051L;
 

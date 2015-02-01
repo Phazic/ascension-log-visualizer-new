@@ -96,7 +96,7 @@ import javax.swing.event.AncestorListener;
 public class PerformanceInfiniteProgressPanel extends JComponent implements
         ActionListener, CancelableAdaptee {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 7564909929056647161L;
     private static final int DEFAULT_NUMBER_OF_BARS = 12;

@@ -48,7 +48,7 @@ import org.jfree.ui.RefineryUtilities;
 
 public final class LicenseViewer extends JDialog {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -2053275150404391206L;
     private final List<BufferedReader> licenses;
@@ -90,7 +90,7 @@ public final class LicenseViewer extends JDialog {
                 .setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         licenseMenu.setModel(new javax.swing.AbstractListModel<String>() {
             /**
-             * 
+             *
              */
             private static final long serialVersionUID = 1L;
             String[] strings = { "Ascension Log Visualizer", "License JCommon",

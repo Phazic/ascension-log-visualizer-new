@@ -20,13 +20,13 @@ package org.apache.commons.lang3.text;
  * <p>
  * Operations on Strings that contain words.
  * </p>
- * 
+ *
  * <p>
  * This class tries to handle <code>null</code> input gracefully. An exception
  * will not be thrown for a <code>null</code> input. Each method documents its
  * behavior in more detail.
  * </p>
- * 
+ *
  * @since 2.0
  * @version $Id: WordUtils.java 1436770 2013-01-22 07:09:45Z ggregory $
  */
@@ -46,7 +46,7 @@ public class WordUtils {
      * {@link System#setProperties(java.util.Properties)} is called after this
      * class is loaded, the value will be out of sync with that System property.
      * </p>
-     * 
+     *
      * @since Java 1.1
      */
     public static final String LINE_SEPARATOR = WordUtils
@@ -58,7 +58,7 @@ public class WordUtils {
      * programming. Instead, the class should be used as
      * <code>WordUtils.wrap("foo bar", 20);</code>.
      * </p>
-     * 
+     *
      * <p>
      * This constructor is public to permit tools that require a JavaBean
      * instance to operate.
@@ -74,22 +74,22 @@ public class WordUtils {
      * <p>
      * Wraps a single line of text, identifying words by <code>' '</code>.
      * </p>
-     * 
+     *
      * <p>
      * New lines will be separated by the system property line separator. Very
      * long words, such as URLs will <i>not</i> be wrapped.
      * </p>
-     * 
+     *
      * <p>
      * Leading spaces on a new line are stripped. Trailing spaces are not
      * stripped.
      * </p>
-     * 
+     *
      * <pre>
      * WordUtils.wrap(null, *) = null
      * WordUtils.wrap("", *) = ""
      * </pre>
-     * 
+     *
      * @param str
      *            the String to be word wrapped, may be null
      * @param wrapLength
@@ -104,17 +104,17 @@ public class WordUtils {
      * <p>
      * Wraps a single line of text, identifying words by <code>' '</code>.
      * </p>
-     * 
+     *
      * <p>
      * Leading spaces on a new line are stripped. Trailing spaces are not
      * stripped.
      * </p>
-     * 
+     *
      * <pre>
      * WordUtils.wrap(null, *, *, *) = null
      * WordUtils.wrap("", *, *, *) = ""
      * </pre>
-     * 
+     *
      * @param str
      *            the String to be word wrapped, may be null
      * @param wrapLength
@@ -143,7 +143,7 @@ public class WordUtils {
         int offset = 0;
         final StringBuilder wrappedLine = new StringBuilder(
                 inputLineLength + 32);
-        while (inputLineLength - offset > actualWrapLength) {
+        while ((inputLineLength - offset) > actualWrapLength) {
             if (str.charAt(offset) == ' ') {
                 offset++;
                 continue;
@@ -191,7 +191,7 @@ public class WordUtils {
      * If a {@code SecurityException} is caught, the return value is
      * {@code null} and a message is written to {@code System.err}.
      * </p>
-     * 
+     *
      * @param property
      *            the system property name
      * @return the system property value or {@code null} if a security problem

@@ -1246,8 +1246,8 @@ public final class TextLogCreator {
         this.write(TextLogCreator.NEW_LINE + TextLogCreator.NEW_LINE
                 + TextLogCreator.NEW_LINE);
         // Disintegrated combats summary
-        this.write("YELLOW RAYS" + TextLogCreator.NEW_LINE
-                + "----------" + TextLogCreator.NEW_LINE);
+        this.write("YELLOW RAYS" + TextLogCreator.NEW_LINE + "----------"
+                + TextLogCreator.NEW_LINE);
         for (final DataNumberPair<String> dn : logData.getLogSummary()
                 .getDisintegratedCombats()) {
             this.write(dn.getNumber());

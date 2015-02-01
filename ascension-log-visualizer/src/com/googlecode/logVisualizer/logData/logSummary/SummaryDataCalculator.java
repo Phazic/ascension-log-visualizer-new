@@ -92,8 +92,7 @@ final class SummaryDataCalculator {
     private final CountableSet<Consumable> consumablesUsed = new CountableSet<>();
     private final CountableSet<Item> droppedItems = new CountableSet<>();
     private final CountableSet<Skill> skillsCast = new CountableSet<>();
-    private final DataCounter<String> turnsPerArea = new DataCounter<>(
-            200);
+    private final DataCounter<String> turnsPerArea = new DataCounter<>(200);
     private final DataCounter<String> familiarUsage = new DataCounter<>();
     private final List<LevelData> levels = new ArrayList<>(15);
     private final List<DataNumberPair<String>> huntedCombats = new ArrayList<>();
@@ -471,8 +470,8 @@ final class SummaryDataCalculator {
                     break;
                 }
                 // Check whether a new level is reached and act accordingly.
-                while (SummaryDataCalculator.isNewLevelReached(logData, currentStatBoarder,
-                        stats)) {
+                while (SummaryDataCalculator.isNewLevelReached(logData,
+                        currentStatBoarder, stats)) {
                     final LevelData newLevel = this.computeNewLevelReached(
                             st.getTurnNumber(), stats, combatTurns,
                             noncombatTurns, otherTurns);

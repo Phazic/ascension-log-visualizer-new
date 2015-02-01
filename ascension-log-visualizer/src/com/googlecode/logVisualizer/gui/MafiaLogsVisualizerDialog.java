@@ -85,7 +85,7 @@ import com.googlecode.logVisualizer.parser.LogsCreator;
  */
 final class MafiaLogsVisualizerDialog extends JDialog {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 3804936802182556332L;
     private static final FilenameFilter MAFIA_LOG_FILTER = new FilenameFilter() {
@@ -99,8 +99,7 @@ final class MafiaLogsVisualizerDialog extends JDialog {
                     && !name.contains(this.preparsedLogPartialFileString);
         }
     };
-    private static final List<File> EMPTY_MAFIA_LOGS_LIST = new ArrayList<>(
-            1);
+    private static final List<File> EMPTY_MAFIA_LOGS_LIST = new ArrayList<>(1);
     private final JTextField mafiaLogsDirectoryField;
     private final JTable visualizableMafiaLogsTable;
     private final JCheckBox toggleAllBox;
@@ -388,7 +387,7 @@ final class MafiaLogsVisualizerDialog extends JDialog {
      */
     private static final class MafiaLogsTableModel extends AbstractTableModel {
         /**
-         * 
+         *
          */
         private static final long serialVersionUID = 4115093485840189667L;
         private static final String[] columnNames = { "Mafia log",

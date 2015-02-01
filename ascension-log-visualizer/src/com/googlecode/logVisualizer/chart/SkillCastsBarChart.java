@@ -31,7 +31,7 @@ import com.googlecode.logVisualizer.logData.Skill;
 
 public final class SkillCastsBarChart extends HorizontalBarChartBuilder {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 3191455251618288006L;
 

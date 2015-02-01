@@ -67,7 +67,7 @@ import com.googlecode.logVisualizer.Settings;
  */
 final class ExternalMafiaLogParserDialog extends JDialog {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 6892809291961419988L;
     private static final FileFilter PERL_SCRIPT_FILTER = new FileFilter() {
@@ -300,7 +300,7 @@ final class ExternalMafiaLogParserDialog extends JDialog {
      */
     private static final class ParserOutputViewer extends JFrame {
         /**
-         * 
+         *
          */
         private static final long serialVersionUID = -5574892142460463233L;
         private static final String NEW_LINE = "\n";

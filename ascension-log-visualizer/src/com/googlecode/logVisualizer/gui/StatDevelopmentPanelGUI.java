@@ -39,7 +39,7 @@ import com.googlecode.logVisualizer.logData.LogDataHolder;
 
 final class StatDevelopmentPanelGUI extends JSplitPane {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -6464692478631464388L;
     private static final String EFFECTIVE_STATS = "effective stats";

@@ -40,7 +40,7 @@ import com.googlecode.logVisualizer.logData.LogDataHolder;
  */
 public abstract class AbstractChart extends JPanel {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 6428845584949682465L;
     private final String title;

@@ -43,7 +43,7 @@ import com.googlecode.logVisualizer.logData.turn.turnAction.DayChange;
 
 public final class StatDevelopmentLineChart extends LineChartBuilder {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -7456717582371777760L;
 

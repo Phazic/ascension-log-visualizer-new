@@ -30,7 +30,7 @@ import com.googlecode.logVisualizer.logData.LogDataHolder;
 
 public final class TotalTurnsSpentPie extends PieChartBuilder {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -1434238900693647366L;
 

@@ -35,7 +35,7 @@ import com.googlecode.logVisualizer.util.LookAheadIterator;
 
 final class PullsPanel extends JTabbedPane {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 522820713091367471L;
     private static final String NEW_LINE = "\n";
@@ -47,8 +47,8 @@ final class PullsPanel extends JTabbedPane {
      */
     PullsPanel(final LogDataHolder logData) {
         super(SwingConstants.TOP, JTabbedPane.SCROLL_TAB_LAYOUT);
-        final LookAheadIterator<Pull> index = new LookAheadIterator<>(
-                logData.getPulls().iterator());
+        final LookAheadIterator<Pull> index = new LookAheadIterator<>(logData
+                .getPulls().iterator());
         while (index.hasNext()) {
             final int currentDay = index.peek().getDayNumber();
             final JTextArea lister = new JTextArea();

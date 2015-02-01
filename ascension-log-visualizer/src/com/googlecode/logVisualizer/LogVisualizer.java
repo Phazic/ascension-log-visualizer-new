@@ -149,28 +149,29 @@ public final class LogVisualizer {
         this.gui.setVisible(true);
         if (Settings.getSettingBoolean("Check Updates")) {
             // Initialize Strings
-            String UPDATE_SITE = "https://github.com/wrldwzrd89/ascension-log-visualizer-new/raw/master/ascension-log-visualizer/updater/";
-            String PRODUCT_NAME = "ascension-log-visualizer";
-            String COMPANY_NAME = "Putty Software";
-            String RDNS_COMPANY_NAME = "com.puttysoftware.alv";
-            int VERSION_MAJOR = 3;
-            int VERSION_MINOR = 0;
-            int VERSION_BUGFIX = 0;
-            int VERSION_CODE = ProductData.CODE_BETA;
-            int VERSION_BETA = 1;
+            final String UPDATE_SITE = "https://github.com/wrldwzrd89/ascension-log-visualizer-new/raw/master/ascension-log-visualizer/updater/";
+            final String PRODUCT_NAME = "ascension-log-visualizer";
+            final String COMPANY_NAME = "Putty Software";
+            final String RDNS_COMPANY_NAME = "com.puttysoftware.alv";
+            final int VERSION_MAJOR = 3;
+            final int VERSION_MINOR = 0;
+            final int VERSION_BUGFIX = 0;
+            final int VERSION_CODE = ProductData.CODE_BETA;
+            final int VERSION_BETA = 1;
             // Initialize update checkers
-            ProductData rpd = new ProductData(UPDATE_SITE, UPDATE_SITE,
+            final ProductData rpd = new ProductData(UPDATE_SITE, UPDATE_SITE,
                     RDNS_COMPANY_NAME, COMPANY_NAME, PRODUCT_NAME,
                     VERSION_MAJOR, VERSION_MINOR, VERSION_BUGFIX,
                     ProductData.CODE_STABLE, 0);
-            ProductData bpd = new ProductData(UPDATE_SITE, UPDATE_SITE,
+            final ProductData bpd = new ProductData(UPDATE_SITE, UPDATE_SITE,
                     RDNS_COMPANY_NAME, COMPANY_NAME, PRODUCT_NAME,
                     VERSION_MAJOR, VERSION_MINOR, VERSION_BUGFIX,
                     ProductData.CODE_BETA, VERSION_BETA);
-            UpdateChecker bUpdater = new UpdateChecker(bpd);
-            UpdateChecker rUpdater = new UpdateChecker(rpd);
+            final UpdateChecker bUpdater = new UpdateChecker(bpd);
+            final UpdateChecker rUpdater = new UpdateChecker(rpd);
             // Check for Updates in the background
             final Thread updateCheck = new Thread(new Runnable() {
+                @SuppressWarnings("unused")
                 @Override
                 public void run() {
                     if (VERSION_CODE != ProductData.CODE_STABLE) {

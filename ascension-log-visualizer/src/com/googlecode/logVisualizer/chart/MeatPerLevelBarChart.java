@@ -33,7 +33,7 @@ import com.googlecode.logVisualizer.util.DataNumberPair;
 public final class MeatPerLevelBarChart extends
         HorizontalStackedBarChartBuilder {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -4681689964988665309L;
 

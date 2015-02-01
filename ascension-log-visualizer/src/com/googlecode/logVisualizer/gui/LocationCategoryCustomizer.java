@@ -66,7 +66,7 @@ import com.googlecode.logVisualizer.util.CategoryViewFileHandler;
 
 public final class LocationCategoryCustomizer extends JDialog {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -5853302439038344217L;
     private static final FileFilter CATEGORY_VIEW_FILES = new FileFilter() {

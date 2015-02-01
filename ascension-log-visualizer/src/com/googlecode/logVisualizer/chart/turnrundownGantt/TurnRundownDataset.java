@@ -42,22 +42,20 @@ import com.googlecode.logVisualizer.logData.turn.TurnInterval;
 public final class TurnRundownDataset extends AbstractSeriesDataset implements
         GanttCategoryDataset {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 4175727242610150629L;
     private static final String DATASET_NAME = "Turn rundown";
     private static final List<String> DATASET_NAMES = Arrays
             .asList(TurnRundownDataset.DATASET_NAME);
-    private Map<String, AreaInterval> dataMap = new LinkedHashMap<>(
-            100);
+    private Map<String, AreaInterval> dataMap = new LinkedHashMap<>(100);
 
     public TurnRundownDataset() {
         super();
     }
 
     public void setDataset(final List<AreaInterval> data) {
-        this.dataMap = new LinkedHashMap<>(
-                (int) ((data.size() * 1.5) + 1));
+        this.dataMap = new LinkedHashMap<>((int) ((data.size() * 1.5) + 1));
         for (final AreaInterval ai : data) {
             this.dataMap.put(ai.getName(), ai);
         }

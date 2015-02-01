@@ -31,7 +31,7 @@ import com.googlecode.logVisualizer.util.DataNumberPair;
 
 public final class FamiliarUsagePie extends PieChartBuilder {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -5378928406728450605L;
 

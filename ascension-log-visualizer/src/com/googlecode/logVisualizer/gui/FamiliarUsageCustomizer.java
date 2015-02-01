@@ -42,7 +42,7 @@ import com.googlecode.logVisualizer.chart.turnrundownGantt.TurnrundownGantt;
 
 public final class FamiliarUsageCustomizer extends JDialog {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 1630895036085140160L;
     private final TurnrundownGantt turnrundownChart;

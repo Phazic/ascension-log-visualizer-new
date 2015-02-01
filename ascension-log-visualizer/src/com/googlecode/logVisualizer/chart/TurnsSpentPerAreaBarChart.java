@@ -31,7 +31,7 @@ import com.googlecode.logVisualizer.util.DataNumberPair;
 
 public final class TurnsSpentPerAreaBarChart extends HorizontalBarChartBuilder {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 4105072257553201657L;
 

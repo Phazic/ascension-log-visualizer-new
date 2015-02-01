@@ -49,7 +49,7 @@ import com.googlecode.logVisualizer.Settings;
  */
 final class LafChangerDialog extends JDialog {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -8154189324762430685L;
     private final JComboBox<String> lafLister;

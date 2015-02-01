@@ -47,7 +47,7 @@ import com.googlecode.logVisualizer.logData.LogDataHolder;
 //TODO Class not used. Should it be deleted?
 public abstract class HorizontalIntervallBarChartBuilder extends AbstractChart {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -8009008898503850018L;
     private final String xLable;

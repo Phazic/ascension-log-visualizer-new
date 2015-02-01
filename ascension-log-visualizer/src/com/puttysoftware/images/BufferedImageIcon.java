@@ -14,7 +14,7 @@ public class BufferedImageIcon extends BufferedImage implements Icon {
     // Constructors
     /**
      * Creates a BufferedImageIcon of a given size.
-     * 
+     *
      * @param width
      * @param height
      */
@@ -24,7 +24,7 @@ public class BufferedImageIcon extends BufferedImage implements Icon {
 
     /**
      * Creates a BufferedImageIcon based on a BufferedImage object.
-     * 
+     *
      * @param bi
      */
     public BufferedImageIcon(final BufferedImage bi) {
@@ -38,7 +38,7 @@ public class BufferedImageIcon extends BufferedImage implements Icon {
 
     /**
      * Creates a square BufferedImageIcon of a given size and color.
-     * 
+     *
      * @param size
      * @param color
      */
@@ -54,7 +54,7 @@ public class BufferedImageIcon extends BufferedImage implements Icon {
     /**
      * Paints the BufferedImageIcon, using the given Graphics, on the given
      * Component at the given x, y location.
-     * 
+     *
      * @param c
      * @param g
      * @param x

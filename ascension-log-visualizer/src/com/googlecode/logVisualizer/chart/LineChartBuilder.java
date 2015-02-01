@@ -41,7 +41,7 @@ import com.googlecode.logVisualizer.logData.LogDataHolder;
 
 public abstract class LineChartBuilder extends AbstractChart {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 5929161163715760050L;
     private final String xLable;
@@ -101,7 +101,7 @@ public abstract class LineChartBuilder extends AbstractChart {
      */
     private final class FixedZoomNumberAxis extends NumberAxis {
         /**
-         * 
+         *
          */
         private static final long serialVersionUID = 454167166479334811L;
 

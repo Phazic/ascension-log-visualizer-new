@@ -46,7 +46,7 @@ public class UDLProgressTask extends Thread {
                     counter += bcounter;
                     if (this.dlmax != -1) {
                         final int oldVal = this.progressBar.getValue();
-                        final int newVal = counter * 100 / this.dlmax;
+                        final int newVal = (counter * 100) / this.dlmax;
                         if (oldVal != newVal) {
                             this.progressBar.setValue(newVal);
                         }

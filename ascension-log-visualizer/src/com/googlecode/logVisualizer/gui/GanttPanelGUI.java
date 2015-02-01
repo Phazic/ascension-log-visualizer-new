@@ -37,7 +37,7 @@ import com.googlecode.logVisualizer.logData.LogDataHolder;
 
 final class GanttPanelGUI extends JSplitPane {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 5900770458488660617L;
     private GanttPaneButtonListener buttonListener;

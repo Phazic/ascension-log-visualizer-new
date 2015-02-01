@@ -40,7 +40,7 @@ import com.googlecode.logVisualizer.logData.consumables.Consumable;
 
 public final class ConsumptionBarChart extends HorizontalStackedBarChartBuilder {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 4858869713775012904L;
 
@@ -73,8 +73,8 @@ public final class ConsumptionBarChart extends HorizontalStackedBarChartBuilder 
     @Override
     protected CategoryDataset createDataset() {
         final DefaultCategoryDataset dataset = new DefaultCategoryDataset();
-        final List<Consumable> consumables = new ArrayList<>(this
-                .getLogData().getAllConsumablesUsed().size());
+        final List<Consumable> consumables = new ArrayList<>(this.getLogData()
+                .getAllConsumablesUsed().size());
         for (final Consumable c : this.getLogData().getAllConsumablesUsed()) {
             if (c.getAdventureGain() > 0) {
                 consumables.add(c);

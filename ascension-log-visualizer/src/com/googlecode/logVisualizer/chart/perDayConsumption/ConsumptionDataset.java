@@ -36,7 +36,7 @@ import com.googlecode.logVisualizer.util.DataTablesHandler;
 
 final class ConsumptionDataset extends DefaultCategoryDataset {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 3893864950692096107L;
     // NumberFormat isn't thread-safe, but from what I could gather, as long as

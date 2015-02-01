@@ -38,7 +38,7 @@ import com.googlecode.logVisualizer.chart.turnrundownGantt.FamiliarColor.Colors;
  */
 final class FamiliarCustomizationTableModel extends AbstractTableModel {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -1221006585852064568L;
     private static final String[] COLUMN_NAMES = { "Familiar", "Color used" };

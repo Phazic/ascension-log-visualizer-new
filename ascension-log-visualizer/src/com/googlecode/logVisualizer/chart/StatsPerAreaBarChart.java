@@ -34,7 +34,7 @@ import com.googlecode.logVisualizer.logData.logSummary.AreaStatgains;
 public final class StatsPerAreaBarChart extends
         HorizontalStackedBarChartBuilder {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 4407365301378710393L;
 

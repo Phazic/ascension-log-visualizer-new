@@ -14,7 +14,7 @@ public class MessageFixer {
         String combined = "";
         for (int x = 0; x < fixed.length; x++) {
             fixed[x] = WordUtils.wrap(messages[x], wrapCount);
-            if (x == fixed.length - 1) {
+            if (x == (fixed.length - 1)) {
                 combined += fixed[x];
             } else {
                 combined += fixed[x] + "\n";

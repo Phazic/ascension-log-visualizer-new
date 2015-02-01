@@ -30,7 +30,7 @@ import com.googlecode.logVisualizer.logData.LogDataHolder;
 
 public final class MPGainsBarChart extends HorizontalBarChartBuilder {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 523839757049071039L;
 

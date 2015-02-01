@@ -39,7 +39,7 @@ import javax.swing.plaf.basic.BasicTabbedPaneUI;
 public class CloseableTabbedPane extends JTabbedPane implements MouseListener,
         MouseMotionListener {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 3881602564771126829L;
     /**
@@ -205,8 +205,8 @@ public class CloseableTabbedPane extends JTabbedPane implements MouseListener,
      * @throws IndexOutOfBoundsException
      *             if index is out of range (index < 0 || index >= tab count)
      */
-    void setCloseIconVisibleAt(final int index,
-            final boolean iconVisible) throws IndexOutOfBoundsException {
+    void setCloseIconVisibleAt(final int index, final boolean iconVisible)
+            throws IndexOutOfBoundsException {
         super.setIconAt(index, iconVisible ? new CloseTabIcon(null) : null);
     }
 

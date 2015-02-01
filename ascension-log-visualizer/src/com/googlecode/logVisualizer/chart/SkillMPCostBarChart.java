@@ -36,7 +36,7 @@ import com.googlecode.logVisualizer.logData.Skill;
 
 public final class SkillMPCostBarChart extends HorizontalBarChartBuilder {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 5804780186480423448L;
 

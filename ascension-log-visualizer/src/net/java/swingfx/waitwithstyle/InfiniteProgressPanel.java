@@ -509,6 +509,7 @@ public class InfiniteProgressPanel extends JComponent implements MouseListener,
         public Ticker() {
             // TODO Auto-generated constructor stub
         }
+
         double maxY = 0.0;
         Area[] bars;
     }

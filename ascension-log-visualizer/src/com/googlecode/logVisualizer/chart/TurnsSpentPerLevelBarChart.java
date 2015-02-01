@@ -32,7 +32,7 @@ import com.googlecode.logVisualizer.logData.logSummary.LevelData;
 public final class TurnsSpentPerLevelBarChart extends
         HorizontalStackedBarChartBuilder {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -3739791056559803681L;
 

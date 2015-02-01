@@ -12,7 +12,7 @@ import java.awt.event.ActionListener;
  */
 public class CancelableProgressPanel extends InfiniteProgressPanel {
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = 4989345408598546359L;
 
